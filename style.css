@@ -1,0 +1,21 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #dc3545; 
+    border-radius: 8px; 
+    padding: 10px;
+    color: white; 
+    text-align: center;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
